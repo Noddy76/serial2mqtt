@@ -31,4 +31,13 @@ jobs:
         fi
 
     - name: Build
+      env:
+        GOARCH: arm
+        GOOS: linux
       run: go build -v .
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: serial2mqtt
+        path: serial2mqtt
