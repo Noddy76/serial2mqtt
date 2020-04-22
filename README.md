@@ -1,6 +1,7 @@
 # serial2mqtt
 
 ![GitHub license](https://img.shields.io/github/license/Noddy76/serial2mqtt.svg)
+![Go](https://github.com/Noddy76/serial2mqtt/workflows/Go/badge.svg)
 
 A simple daemon to relay lines from a serial port to a MQTT topic.
 
